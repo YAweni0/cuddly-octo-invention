@@ -1,0 +1,414 @@
+*{
+ 
+
+  scroll-behavior: smooth;
+}
+
+html,body{
+    background-color: rgb(243, 234, 219);
+    height: auto;
+    overflow: visible;
+    overflow-x: hidden;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+ 
+    margin: 36px auto;
+    padding: 50px 40px;
+    max-width: 1300px;
+    background-color: rgb(249, 239, 229);
+    border-bottom: 1px solid rgb(214, 163, 96);
+    border-top: 1px solid rgb(214, 163, 96);
+        /* position: fixed;
+        top: 10px; */
+}
+
+.img3{
+width: 180px;
+height: 120px;
+margin-right: auto;
+border-radius: 5px;
+} 
+
+.nav1 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: rgb(148, 88, 10);
+}
+
+.nav1 a:hover{
+    text-decoration: none;
+    color: rgb(16, 10, 1);
+    font-size: 22px;
+}
+
+.tot_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 36px auto;  
+     max-width: 1200px;
+     margin: 60px auto;
+     padding: 0 40px;
+}
+
+.img2{
+   height: 209px;
+   width: 187px;
+}
+
+.H{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   text-align: center;
+    gap: 1px;
+}
+
+.h1{
+    font-size: 55px;
+    margin: 0;
+    text-align: center;
+}
+
+h1::first-letter{
+    color: rgb(109, 70, 3);
+    font-size: 48px;
+
+}
+.h2{
+    font-size: 45px;
+      margin: 0;
+    text-align: center;
+}
+
+ .button{
+        display: flex;
+        padding: 10px 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;  
+        width: 100%;
+        margin-top: 20px;
+        padding: 10PX;
+        margin: 20px auto;
+ }
+ input[type="submit"]{
+    background-color: rgb(0, 0, 0);
+    color: rgb(254, 255, 255);
+    text-shadow: rgba(0, 0, 0, 1);
+    padding: 12PX 25PX;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: 0.5;
+    align-items: center;
+ }
+    input[type="submit"]:hover{
+    text-decoration: none;
+    color: rgb(27, 195, 106);
+    font-size: 22px;
+    }
+    .About_us{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        font-size: 20px;
+        text-align: justify;
+        margin: 50px auto;
+        padding: 20px;
+        max-width: 1200px;
+    }
+    .text{
+        font-size: 30px;
+        text-align: center;
+        margin-right: 50px;
+    }
+    .ab_img{
+        height: 209px;
+        width: 187px;
+        margin: auto;   
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .Contacts{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+        font-size: 50px;
+        text-align: center;
+        padding: 50px 10px;
+        background-image: url(img/img4.jpg) ;
+        background-size: cover;
+        background-position: center;
+        min-height: 400px;
+    }
+    .table{
+        display: flex;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+.socialMedia{
+display: flex;
+gap: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.ico1{
+    width: 60px;
+    height: 60px;
+    object-fit: contain; 
+    border-radius: 45%;
+    margin-bottom:30px ;
+    padding: 8px;
+    
+}
+
+.ico2{
+    width: 60px;
+    height: 60px;
+    object-fit: contain; 
+    border-radius: 45%;
+    margin-bottom:30px ;
+        padding: 8px;
+}
+.ico3{
+    width: 60px;
+    height: 60px;
+    object-fit: contain; 
+    border-radius: 45%;
+    margin-bottom:30px ;
+        padding: 8px;
+}
+.ico1:hover{
+        width: 78px;
+    height: 78px;
+}
+.ico2:hover{
+        width: 78px;
+    height: 78px;
+}
+.ico3:hover{
+        width: 78px;
+    height: 78px;
+}
+footer{
+    background-color: rgb(249, 239, 229);
+    padding: 36px;
+    text-align: center;
+    font-size: large;
+    border-bottom: 1px solid rgb(214, 163, 96);
+border-top: 1px solid rgb(214, 163, 96);
+/* position: absolute;
+bottom: 10px; */
+}
+
+/* منقول من gemini */
+.reviews-section {
+    max-width: 600px; 
+    margin: 40px auto;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: rgb(249, 239, 229); 
+}
+
+.section-title {
+    text-align: center;
+    color: rgb(109, 70, 3);
+}
+
+.review-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-left: 4px solid rgb(109, 70, 3); 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.user-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    margin: 5px 0;
+    color: #444;
+}
+
+.review-card small {
+    color: #888;
+    font-style: italic;
+}
+
+.add-review {
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.add-review input, .add-review textarea, .add-review select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.btn-submit {
+    background-color: rgb(109, 70, 3);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.btn-submit:hover {
+    background-color: #000;
+}
+
+.Home{
+   position: sticky ;
+
+    bottom: 30px;
+    left: 30px ;
+    width: 100px ;
+    height: 45px ;
+    background-color: #000 ;
+    color: #fff ;
+    z-index: 9999999 ;
+    border: 2px solid #d6a360 ;
+    border-radius: 10px ;
+    cursor: pointer ;
+    display: block;
+}
+.img33{
+    align-items: center;
+    width: 180px;
+    height: 120px;
+}
+
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.login_table{
+    background-color: rgb(249, 239, 229);
+   
+    border: 1px;
+    
+    text-align: center;
+    width:150px ;
+    height: 150px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.done {
+    background-color: #000 ;
+    color: white;
+    border-radius: 10px ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.scroll-wrapper{
+    width: 100%;
+    max-width: 500px;
+    height: 450px;
+    overflow-y:auto ;
+    padding: 10px;
+}
+
+.items{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 15px;
+   background-color: #d0a874;
+   position: relative;
+}
+
+.items div{
+    display: flex;
+flex-direction: column;
+}
+
+.items img{
+justify-self: center;
+width: 400px;
+    height: 400px;
+}
+
+.item .ta .th{
+    justify-content: center;
+    
+}
+
+
+
+
+
+    @media(max-width: 1023px){
+        header{
+            margin-left: 18px;
+            margin-right: 18px;
+        }
+        .tot_div{
+            flex-direction: column;
+            align-items: center;
+            gap: 36px;
+        }
+        .img2{
+            width: 400px;
+        }
+        .H{
+            font-size: 36px;
+        }
+        .img2{
+            display: none;
+        }
+        .About_us{
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 36px;
+            margin: 0px 70px;
+        }
+        .Contacts{
+            padding: 0px;
+            gap: 30px;
+            flex-direction: column;
+        }
+        
+
+    }

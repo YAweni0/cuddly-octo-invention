@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_YR HD</title>
+    <!-- <link rel="stylesheet" href="pro.css"> -->
+    <style>
+        html,
+        body {
+            background-color: rgb(243, 234, 219);
+            height: auto;
+            overflow: visible;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        header {
+            display: flex;
+            /* justify-content: space-between; */
+
+            margin: 36px auto;
+            padding: 50px 40px;
+            max-width: 1300px;
+            background-color: rgb(249, 239, 229);
+            border-bottom: 1px solid rgb(214, 163, 96);
+            border-top: 1px solid rgb(214, 163, 96);
+        }
+
+        footer {
+            background-color: rgb(249, 239, 229);
+            padding: 36px;
+            text-align: center;
+            font-size: large;
+            border-bottom: 1px solid rgb(214, 163, 96);
+            border-top: 1px solid rgb(214, 163, 96);
+            /* position: absolute;
+            bottom: 10px; */
+        }
+
+        .signup {
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            flex-direction: column;
+            width: 400px;
+            margin: 50px auto;
+            gap: 5px;
+        }
+
+        .gender {
+            display: block;
+            justify-content: left;
+            margin-left: 50px;
+        }
+
+        #gender{
+            height: 30px;
+            width: 18px;
+        }
+
+        .signup label {
+            margin-top: 15px;
+            justify-self: left;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        .signup input {
+            height: 30px;
+            border: 1px solid rgb(231, 160, 78);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="" alt="logo" class="img33">
+    </header>
+
+    <h1 style="justify-self: center;">
+        Register A New Account
+    </h1>
+
+    <form action="">
+        <div class="signup">
+            <label>
+                first name
+            </label>
+            <input type="text" name="first_name" id="" placeholder="first_name">
+            <label>
+                last name
+            </label>
+            <input type="text" name="last_name" id="" placeholder="last_name">
+            <label>
+                email
+            </label>
+            <input type="email" name="email" id="" placeholder="email">
+            <label>
+                password
+            </label>
+            <input type="password" name="password" id="" placeholder="password">
+            <label>
+                re-enter password
+            </label>
+            <input type="password" name="password" id="" placeholder="re-enter password">
+            <label>
+                phone number
+            </label>
+            <input type="number" name="phone" id="" placeholder="re-enter password">
+            <label>
+                address
+            </label>
+            <input type="text" name="address" id="" placeholder="address">
+            <label>
+                age
+            </label>
+            <input type="date" name="age" id="">
+            <label>
+                gender
+            </label>
+            <div class="gender">
+
+                <input type="radio" name="gender" id="gender"> MALE
+                <br>
+                <input type="radio" name="gender" id="gender"> FEMALE
+            </div>
+        </div>
+    </form>
+
+    <footer>
+        <p>Built by geniuses</p>
+    </footer>
+</body>
+
+</html>
